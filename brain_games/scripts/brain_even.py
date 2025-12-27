@@ -1,7 +1,7 @@
 import random
 
 
-def main(name):
+def main(name="Guest"):
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for i in range(3):
         number = random.randint(1, 100)
