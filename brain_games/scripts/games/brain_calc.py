@@ -1,24 +1,21 @@
-import random
+from random import randint, choice
 
 
 def main(name="Guest"):
     print('What is the result of the expression?')
-    for i in range(3):
+    for _ in range(3):
         operator = random.choice(['+', '-', '*'])
+        num_1 = random.randint(1, 100)
+        num_2 = random.randint(1, 100)
         if operator == '+':
-            num_1 = random.randint(1, 100)
-            num_2 = random.randint(1, 100)
             correct_answer = num_1 + num_2
         if operator == '-':
-            num_1 = random.randint(1, 100)
-            num_2 = random.randint(1, 100)
-            correct_answer = num_1 - num_2
             if num_1 < num_2:
                 num_1, num_2 = num_2, num_1
-                correct_answer = num_1 - num_2
+            correct_answer = num_1 - num_2
         if operator == '*':
-            num_1 = random.randint(1, 20)
-            num_2 = random.randint(1, 20)
+            num_1 = (num_1 % 20) + 1
+            num_2 = (num_2 % 20) + 1
             correct_answer = num_1 * num_2
         print(f'Quaestion: {num_1} {operator} {num_2}') 
         answer = input('Your answer: ')

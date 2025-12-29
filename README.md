@@ -25,3 +25,9 @@ brain-calc win
 
 brain-calc lose
 [![asciicast](https://asciinema.org/a/hTRwruETS6gx4QAObzLFX3NYo.svg)](https://asciinema.org/a/hTRwruETS6gx4QAObzLFX3NYo)
+
+brain-gcd win
+[![asciicast](https://asciinema.org/a/ZEQBJj8dooGHirKOacSzmAzHk.svg)](https://asciinema.org/a/ZEQBJj8dooGHirKOacSzmAzHk)
+
+brain-gcd lose
+[![asciicast](https://asciinema.org/a/2jRma3HQlsM9S0GCNXJfSnNWc.svg)](https://asciinema.org/a/2jRma3HQlsM9S0GCNXJfSnNWc)
