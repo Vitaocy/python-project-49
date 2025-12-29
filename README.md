@@ -14,8 +14,14 @@
 how to install brain-games:
 [![asciicast](https://asciinema.org/a/jCaJQAAvwgtL6TF848QesThiG.svg)](https://asciinema.org/a/jCaJQAAvwgtL6TF848QesThiG)
 
+brain-even win
+[![asciicast](https://asciinema.org/a/DgHWn4wnBWbkL9JCtEYLujJQ6.svg)](https://asciinema.org/a/DgHWn4wnBWbkL9JCtEYLujJQ6)
+
 brain-even lose
 [![asciicast](https://asciinema.org/a/LBICRrJWMzBaSG5b7VhItAVf7.svg)](https://asciinema.org/a/LBICRrJWMzBaSG5b7VhItAVf7)
 
-brain-even win
-[![asciicast](https://asciinema.org/a/DgHWn4wnBWbkL9JCtEYLujJQ6.svg)](https://asciinema.org/a/DgHWn4wnBWbkL9JCtEYLujJQ6)
+brain-calc win
+[![asciicast](https://asciinema.org/a/DQzCJ4Q8r5bH7xt5hYU22reuD.svg)](https://asciinema.org/a/DQzCJ4Q8r5bH7xt5hYU22reuD)
+
+brain-calc lose
+[![asciicast](https://asciinema.org/a/hTRwruETS6gx4QAObzLFX3NYo.svg)](https://asciinema.org/a/hTRwruETS6gx4QAObzLFX3NYo)
