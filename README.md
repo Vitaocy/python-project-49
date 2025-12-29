@@ -11,6 +11,10 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Vitaocy_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Vitaocy_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Vitaocy_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Vitaocy_python-project-49)
 
+dependences:
+make (build-in Linux command)
+package: "prompt>=0.4.1"
+
 how to install brain-games:
 [![asciicast](https://asciinema.org/a/jCaJQAAvwgtL6TF848QesThiG.svg)](https://asciinema.org/a/jCaJQAAvwgtL6TF848QesThiG)
 
