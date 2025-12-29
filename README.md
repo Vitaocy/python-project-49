@@ -37,3 +37,9 @@ brain-progression win
 
 brain-progression lose
 [![asciicast](https://asciinema.org/a/pXr1r6b35bBi3RUFt7dwq498j.svg)](https://asciinema.org/a/pXr1r6b35bBi3RUFt7dwq498j)
+
+brain-prime win
+[![asciicast](https://asciinema.org/a/gtX0SSAlNxrYeHgxPX5yUlz8F.svg)](https://asciinema.org/a/gtX0SSAlNxrYeHgxPX5yUlz8F)
+
+brain-prime lose
+[![asciicast](https://asciinema.org/a/oMYG1L7bA4cXsdcGCP7mVC5zP.svg)](https://asciinema.org/a/oMYG1L7bA4cXsdcGCP7mVC5zP)
