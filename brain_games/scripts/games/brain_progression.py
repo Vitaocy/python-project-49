@@ -1,7 +1,9 @@
+from brain_games.cli import welcome_user
 from random import randint, choice
 
 
-def main(name="Guest"):
+def main():
+    name = welcome_user()
     print('What number is missing in the progression?')
     for _ in range(3):
         start = randint(1, 20)

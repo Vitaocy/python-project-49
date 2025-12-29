@@ -1,10 +1,12 @@
+from brain_games.cli import welcome_user
 from random import randint
 
 
-def main(name="Guest"):
+def main():
+    name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for _ in range(3):
-        number = random.randint(1, 100)
+        number = randint(1, 100)
         print(f'Question: {number}')
         answer = input('Your answer: ')
         correct_answer = 'yes' if number % 2 == 0 else 'no'

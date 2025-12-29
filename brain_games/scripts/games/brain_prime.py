@@ -1,7 +1,9 @@
+from brain_games.cli import welcome_user
 from random import randint
 
 
-def main(name="Guest"):
+def main():
+    name = welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for _ in range(3):
         number = randint(1, 100)

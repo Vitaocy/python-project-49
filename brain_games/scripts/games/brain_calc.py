@@ -1,12 +1,14 @@
-from random import randint
+from brain_games.cli import welcome_user
+from random import randint, choice
 
 
-def main(name="Guest"):
+def main():
+    name = welcome_user()
     print('What is the result of the expression?')
     for _ in range(3):
-        operator = random.choice(['+', '-', '*'])
-        num_1 = random.randint(1, 100)
-        num_2 = random.randint(1, 100)
+        operator = choice(['+', '-', '*'])
+        num_1 = randint(1, 100)
+        num_2 = randint(1, 100)
         if operator == '+':
             correct_answer = num_1 + num_2
         if operator == '-':
