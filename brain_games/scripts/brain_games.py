@@ -1,6 +1,7 @@
 from brain_games.cli import welcome_user
-from brain_games.scripts.games.brain_even import main as brain_even
 from brain_games.scripts.games.brain_calc import main as brain_calc
+from brain_games.scripts.games.brain_even import main as brain_even
+from brain_games.scripts.games.brain_gcd import main as brain_gcd
 
 
 def main():

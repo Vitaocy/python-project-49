@@ -1,4 +1,3 @@
-from random import randint, choice
 
 
 def main(name="Guest"):
