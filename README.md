@@ -31,3 +31,9 @@ brain-gcd win
 
 brain-gcd lose
 [![asciicast](https://asciinema.org/a/2jRma3HQlsM9S0GCNXJfSnNWc.svg)](https://asciinema.org/a/2jRma3HQlsM9S0GCNXJfSnNWc)
+
+brain-progression win
+[![asciicast](https://asciinema.org/a/9epsySLuXMiGBznC4bpRa9qIp.svg)](https://asciinema.org/a/9epsySLuXMiGBznC4bpRa9qIp)
+
+brain-progression lose
+[![asciicast](https://asciinema.org/a/pXr1r6b35bBi3RUFt7dwq498j.svg)](https://asciinema.org/a/pXr1r6b35bBi3RUFt7dwq498j)
