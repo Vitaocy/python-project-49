@@ -2,8 +2,8 @@ from brain_games.cli import welcome_user
 from random import randint
 
 
-def main(name='Guest'):
-    print(f'Hello, {name}!')
+def main():
+    name = welcome_user()
     print('Find the greatest common divisor of given numbers.')
 
     def gcd(a, b):
