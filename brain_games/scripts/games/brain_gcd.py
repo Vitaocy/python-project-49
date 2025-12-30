@@ -20,9 +20,9 @@ def main():
 
         print(f'Question: {num1} {num2}')
         
-        user_input = input('Your answer: ')
+        answer = input('Your answer: ')
 
-        if int(user_input) == correct_answer:
+        if int(answer) == correct_answer:
             print('Correct!')
         else:
             print(
