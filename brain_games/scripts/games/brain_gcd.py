@@ -25,7 +25,10 @@ def main():
         if int(user_input) == correct_answer:
             print('Correct!')
         else:
-            print(f"'{user_input}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(
+                f"'{answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {name}!")
             return
 
