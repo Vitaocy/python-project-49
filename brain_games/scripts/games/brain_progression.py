@@ -1,5 +1,5 @@
 from brain_games.cli import welcome_user
-from random import randint, choice
+from random import randint
 
 
 def main():
