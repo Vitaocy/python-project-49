@@ -19,7 +19,7 @@ def main():
             num_1 = (num_1 % 20) + 1
             num_2 = (num_2 % 20) + 1
             correct_answer = num_1 * num_2
-        print(f'Quaestion: {num_1} {operator} {num_2}') 
+        print(f'Question: {num_1} {operator} {num_2}') 
         answer = input('Your answer: ')
         if answer == str(correct_answer):
             print('Correct!')
