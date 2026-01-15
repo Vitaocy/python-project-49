@@ -11,39 +11,63 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Vitaocy_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Vitaocy_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Vitaocy_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Vitaocy_python-project-49)
 
-dependences:
-make (build-in Linux command)
-package: "prompt>=0.4.1"
 
-how to install brain-games:
-[![asciicast](https://asciinema.org/a/jCaJQAAvwgtL6TF848QesThiG.svg)](https://asciinema.org/a/jCaJQAAvwgtL6TF848QesThiG)
+# Игры разума
+Набор консольных игр, запускаемых из терминала.  
+Проект представляет собой CLI-приложение, в котором пользователь проходит серию математических и логических испытаний. Для победы необходимо дать три правильных ответа подряд.
 
-brain-even win
-[![asciicast](https://asciinema.org/a/DgHWn4wnBWbkL9JCtEYLujJQ6.svg)](https://asciinema.org/a/DgHWn4wnBWbkL9JCtEYLujJQ6)
 
-brain-even lose
-[![asciicast](https://asciinema.org/a/LBICRrJWMzBaSG5b7VhItAVf7.svg)](https://asciinema.org/a/LBICRrJWMzBaSG5b7VhItAVf7)
+## Доступные игры
+- **brain-even** — определить, является ли число чётным  
+- **brain-calc** — решить математическое выражение  
+- **brain-gcd** — найти наибольший общий делитель  
+- **brain-progression** — определить пропущенное число в прогрессии  
+- **brain-prime** — определить, является ли число простым  
 
-brain-calc win
-[![asciicast](https://asciinema.org/a/DQzCJ4Q8r5bH7xt5hYU22reuD.svg)](https://asciinema.org/a/DQzCJ4Q8r5bH7xt5hYU22reuD)
 
-brain-calc lose
-[![asciicast](https://asciinema.org/a/hTRwruETS6gx4QAObzLFX3NYo.svg)](https://asciinema.org/a/hTRwruETS6gx4QAObzLFX3NYo)
+## Зависимости:
+- Python 3.10+
+- make (стандартная утилита Linux / macOS)
+- Python-package: 
+  - "prompt>=0.4.1"
 
-brain-gcd win
-[![asciicast](https://asciinema.org/a/ZEQBJj8dooGHirKOacSzmAzHk.svg)](https://asciinema.org/a/ZEQBJj8dooGHirKOacSzmAzHk)
 
-brain-gcd lose
-[![asciicast](https://asciinema.org/a/2jRma3HQlsM9S0GCNXJfSnNWc.svg)](https://asciinema.org/a/2jRma3HQlsM9S0GCNXJfSnNWc)
+## Установка [(asciinema)](https://asciinema.org/a/jCaJQAAvwgtL6TF848QesThiG)
+```bash
+git clone https://github.com/Vitaocy/python-project-49.git
+cd python-project-49
+make install
+make build
+make package-install
+```
 
-brain-progression win
-[![asciicast](https://asciinema.org/a/9epsySLuXMiGBznC4bpRa9qIp.svg)](https://asciinema.org/a/9epsySLuXMiGBznC4bpRa9qIp)
+## Запуск игр
+После установки игры доступны как обычные CLI-команды:
+```bash
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
+```
 
-brain-progression lose
-[![asciicast](https://asciinema.org/a/pXr1r6b35bBi3RUFt7dwq498j.svg)](https://asciinema.org/a/pXr1r6b35bBi3RUFt7dwq498j)
+## Демонстрация работы
+**brain-even**
+- win [(asciinema)](https://asciinema.org/a/DgHWn4wnBWbkL9JCtEYLujJQ6)
+- lose [(asciinema)](https://asciinema.org/a/LBICRrJWMzBaSG5b7VhItAVf7)
 
-brain-prime win
-[![asciicast](https://asciinema.org/a/gtX0SSAlNxrYeHgxPX5yUlz8F.svg)](https://asciinema.org/a/gtX0SSAlNxrYeHgxPX5yUlz8F)
+**brain-calc**
+- win [(asciinema)](https://asciinema.org/a/DQzCJ4Q8r5bH7xt5hYU22reuD)
+- lose [(asciinema)](https://asciinema.org/a/hTRwruETS6gx4QAObzLFX3NYo)
 
-brain-prime lose
-[![asciicast](https://asciinema.org/a/oMYG1L7bA4cXsdcGCP7mVC5zP.svg)](https://asciinema.org/a/oMYG1L7bA4cXsdcGCP7mVC5zP)
+**brain-gcd**
+- win [(asciinema)](https://asciinema.org/a/ZEQBJj8dooGHirKOacSzmAzHk)
+- lose [(asciinema)](https://asciinema.org/a/2jRma3HQlsM9S0GCNXJfSnNWc)
+
+**brain-progression**
+- win [(asciinema)](https://asciinema.org/a/9epsySLuXMiGBznC4bpRa9qIp)
+- lose [(asciinema)](https://asciinema.org/a/pXr1r6b35bBi3RUFt7dwq498j)
+
+**brain-prime**
+- win [(asciinema)](https://asciinema.org/a/gtX0SSAlNxrYeHgxPX5yUlz8F)
+- lose [(asciinema)](https://asciinema.org/a/oMYG1L7bA4cXsdcGCP7mVC5zP)
